@@ -1,0 +1,21 @@
+StudentID,Name,Age,Gender,Major,GPA,Passed
+1001,Alice Johnson,20,Female,computer science,3.8,Yes
+1002,  Bob Smith,22,Male,Mathematics,3.5,Yes
+1003,Carla Gomez,,Feale,BIOLOGY,3.9,Yes
+1004,David Lee,21,Male,Engineering,7.5,Yes
+1005,Emma Brown,20,female,History,3.6,Yes
+1006,Frank Wright,23,Male,physics,2.4,No
+1007,Grace Kim,18,Female,English,,Yes
+1008,Henry Zhang,21,male,economics,3.3,Yes
+1009,Irene Davis,22,FEMALE,Psychology,3.9,Yes
+1010,Jack Wilson,20,Male,Chemistry,3.1,Yes
+1011,Karen White,19,Female,Sociology,2.7,No
+1012,Liam Turner,22,MALE,Philosophy,3.0,yes
+1013,Maria Lopez,21,Female,Computer science,3.4,Yes
+1013,Maria Lopez,21,Female,Computer science,3.4,Yes
+1014,Nathan Reed,20,Male,Engineering,2.9,no
+1015,Olivia Clark,18,FEMALE,Biology,3.8,YES
+1016,Paul Adams,-1,Male,Mathematics,2.5,No
+1017,Quinn Hall,20,Nonbinary,English,3.6,Yes
+1018,Rachel Green,21,Female,Psychology,3.2,Yes
+1019,Samuel Carter,22,male,History,2.8,no
