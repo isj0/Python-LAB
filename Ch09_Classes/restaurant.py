@@ -14,10 +14,10 @@ class Restaurant:
     def open_restaurant(self):
         print(f"{self.restaurant_name} is now Opened!")
 
-my_restaurant = Restaurant("Vegan Fusion", "Indian")
-my_restaurant.describe_restaurant()
-my_restaurant.open_restaurant()
-print()
-restaurant2 = Restaurant("Ocean Paradise", "Mediterrnean")
-restaurant2.describe_restaurant()
-restaurant2.open_restaurant()
+# my_restaurant = Restaurant("Vegan Fusion", "Indian")
+# my_restaurant.describe_restaurant()
+# my_restaurant.open_restaurant()
+# print()
+# restaurant2 = Restaurant("Ocean Paradise", "Mediterrnean")
+# restaurant2.describe_restaurant()
+# restaurant2.open_restaurant()

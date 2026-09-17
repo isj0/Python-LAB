@@ -22,9 +22,9 @@ class Users:
         print(f"Hello {self.first_name} {self.last_name}, welcome to Hogwarts !")
 
 
-user1 = Users('Harry', 'Potter', 12, 'Male', 135, 40)
-user2 = Users('Hermoine', 'Granger', 12, 'Female', 130, 36)
-user1.describe_user()
-print()
-user2.greet_user()
-user2.describe_user()
+# user1 = Users('Harry', 'Potter', 12, 'Male', 135, 40)
+# user2 = Users('Hermoine', 'Granger', 12, 'Female', 130, 36)
+# user1.describe_user()
+# print()
+# user2.greet_user()
+# user2.describe_user()

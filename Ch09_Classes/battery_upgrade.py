@@ -1,5 +1,3 @@
-"""A set of classes that can be used to represent gas & electric cars."""
-
 class Car:
     """A simple attempt to represent a car."""
 
@@ -38,6 +36,8 @@ class Car:
         if tank <= 10:
             print("\nWarning! Please consider filling your gas tank")
 
+
+
 class Battery:
     """A simple attempt to model a bettery for an electric car."""
 
@@ -58,9 +58,15 @@ class Battery:
 
         print(f"\nThis car can go about {range} miles on a full charge.")
 
+    def upgrade_battery(self):
+        """Checks the battery size and sets upgrade to the battery."""
+        if self.battery_size < 65:
+            self.battery_size = 65
+            print("\n-Congrats your battery pack was upgraded.")
+
 
 class ElectricCar(Car):
-    """Models aspects of a car, specific to electric vehicles."""
+    """Represents aspects of a car, specific to electric vehicles."""
 
     def __init__(self, make, model, year):
         """
@@ -77,3 +83,11 @@ class ElectricCar(Car):
         Electric cars don't have gas tanks.
         """
         print("\nThis car doesn't have a gas tank!")
+
+my_leaf = ElectricCar('nissan', 'leaf', 2024)
+print(my_leaf.get_descriptive_name())
+my_leaf.battery.describe_battery()
+my_leaf.fill_gas_tank()
+my_leaf.battery.get_range()
+my_leaf.battery.upgrade_battery()
+my_leaf.battery.get_range()
