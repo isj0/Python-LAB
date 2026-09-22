@@ -1,0 +1,5 @@
+In Python you can use pathlib module
+to easily access the files
+located the in same folder as your
+.py file.
+Also in Python, you can read or write files.
